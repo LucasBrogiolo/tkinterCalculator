@@ -1,12 +1,17 @@
+# first import tkinter
 from tkinter import *
 
+# here we create the main wndow
 calc = Tk()
 calc.title("Calculator")
 calc.configure(background="#ffffcc")
 
+# here to show the numbers
 e = Entry(calc, width=35, borderwidth=2)
 e.grid(row=0, column=0, columnspan=4, padx=10, pady=15)
 
+
+# create the functions:
 def button_add(number):
     current = e.get()
     e.delete(0, END)
@@ -120,4 +125,5 @@ button_mult.grid(row=1, column=3)
 button_divd.grid(row=4, column=3)
 button_per.grid(row=1, column=2)
 
+# the loop to run the calculator
 calc.mainloop()
