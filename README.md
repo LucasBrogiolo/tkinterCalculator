@@ -1,2 +1,2 @@
 # tkinterCalculator
-Basic Calculator with python and tinter
+Basic Calculator with python and tkinter
