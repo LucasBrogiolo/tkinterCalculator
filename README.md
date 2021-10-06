@@ -1,2 +1,3 @@
 # tkinterCalculator
-Basic Calculator with python and tkinter
+Basic Calculator with python
+Good to study Tkinter module
